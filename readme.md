@@ -8,8 +8,8 @@ In this lab, we will practice conditionally routing a user and utilizing informa
 
 Topics:
 
-- `document.location` Location Object.
-- `URLSearchParams` interface and the `.get()` method.
+- [`document.location` Location Object.](https://developer.mozilla.org/en-US/docs/Web/API/Document/location)
+- [`URLSearchParams` interface and the `.get()` method.](https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams)
 
 ## Achieving
 
@@ -21,26 +21,20 @@ Your work will result in:
 
 # Procedure
 
-## Refactoring the file structure
-
-- [ ] Update the file name `script.js` to be `index.js` and update the import in `index.html`.
-- [ ] Create two new files: `greeting.html` and `greeting.js`.
-- [ ] Import `greeting.js` into `greeting.html`.
-- [ ] Inside of `greeting.html`, create a new `<h2>` with the id of "friend-greeting".
+- [ ] Reuse your code from `hello-frenemy-www` in the existing index.html file and the script.js file 
 
 ## Refactoring the conditional logic
 
-**In order to see changes in the URL as anticipated, you will need to open the Replit browser in its own window. The way to do this is to click the square button with an upward right arrow in the upper right corner of the embedded browser window.**
-
 - [ ] _This change will need to occur at the point in the code the user is greeted by name._
-- [ ] Remove the change to the "computer-response" `textContent` that greets the user by name.
+- [ ]   In script.js, remove the change to the "computer-response" `textContent` that greets the user by name.
 - [ ] In its place, use the `document.location` Location Object. See the following link for more detail: [MDN Document.location](https://developer.mozilla.org/en-US/docs/Web/API/Document/location)
 - [ ] Reassign the value of `document.location` to be a concatenation of `/greeting.html?name=` and the "user-input" element value.
 - [ ] Test what occurs now when a user submits the form.
 
 ## Getting our URL parameters on the new page
 
-- [ ] Use a query selector to get reference to the new `<h2>` on `greeting.html`.
+- [ ] In `greeting.html`, create an `<h2>` with the id of "friend-greeting"
+- [ ] in `greeting.js`, use a query selector to get reference to the new `<h2>` on `greeting.html`.
 - [ ] Create a new variable `params` and assign to it the construction of a  `new URLSearchParams()` whose argument is `document.location.search`.
 - [ ] Create a new variable `friendName` and assign to it `params` with the `.get` method whose argument is 'name'.
 - [ ] Change the text content of the "friend-greeting" element to concatenate a greeting utilizing `friendName`.
