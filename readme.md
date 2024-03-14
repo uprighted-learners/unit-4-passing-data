@@ -1,6 +1,6 @@
 ## Objective
 
-Extend the [Hello Frenemy WWW Lab](https://online.uprighted.com/lessons/written/hello-frenemy-www) and refactor it to utilize conditional routing and URL parameters.
+Extend the [Hello Frenemy WWW Lab](https://github.com/uprighted-learners/unit-4-hello-frenemy-www/tree/solution) and refactor it to utilize conditional routing and URL parameters.
 
 ## Learning
 
@@ -21,7 +21,7 @@ Your work will result in:
 
 # Procedure
 
-- [ ] Reuse your code from `hello-frenemy-www` in the existing index.html file and the script.js file 
+- [ ] Reuse your code from `hello-frenemy-www` in the existing index.html file and the script.js file
 
 ## Refactoring the conditional logic
 
@@ -41,7 +41,7 @@ Your work will result in:
 
 # Review
 
-In this lab, we refactored a previous lab to have new functionality including conditional routing and URL parameter utilization. 
+In this lab, we refactored a previous lab to have new functionality including conditional routing and URL parameter utilization.
 
 The software should:
 
