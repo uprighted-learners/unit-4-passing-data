@@ -1,10 +1,10 @@
 ## Objective
 
-Extend the [Hello Frenemy WWW Lab](https://github.com/uprighted-learners/unit-4-hello-frenemy-www/tree/solution) and refactor it to utilize conditional routing and URL parameters.
+Extend the [Hello Frenemy WWW exercise](https://github.com/uprighted-learners/unit-4-hello-frenemy-www/tree/solution) and refactor it to utilize conditional routing and URL parameters.
 
 ## Learning
 
-In this lab, we will practice conditionally routing a user and utilizing information passed in the URL. All topics described in Hello Frenemy WWW will be utilized along with the following new ones.
+In this exercise, we will practice conditionally routing a user and utilizing information passed in the URL. All topics described in Hello Frenemy WWW will be utilized along with the following new ones.
 
 Topics:
 
@@ -13,7 +13,7 @@ Topics:
 
 ## Achieving
 
-In this lab, when a user enters their name, they will either be told to "Go away!" OR be routed to a new page that greets them by name. Their name should be appended as a parameter in the URL so that the new page can access it.
+In this exercise, when a user enters their name, they will either be told to "Go away!" OR be routed to a new page that greets them by name. Their name should be appended as a parameter in the URL so that the new page can access it.
 
 Your work will result in:
 
@@ -41,7 +41,7 @@ Your work will result in:
 
 # Review
 
-In this lab, we refactored a previous lab to have new functionality including conditional routing and URL parameter utilization.
+In this exercise, we refactored a previous exercise to have new functionality including conditional routing and URL parameter utilization.
 
 The software should:
 
